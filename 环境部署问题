@@ -1,0 +1,5 @@
+## 本地环境是MAC OS，使用的IDE是Pycharm，python版本是python3.8
+1. 无法找到“tensorflow”包的问题，尝试了换源，pip install等均无法找到tensorflow的包？
+解决方法：
+1）手动下载tensorflow适配python3.8的包，[链接](http://link.zhihu.com/?target=https%3A//storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.14.0-py3-none-any.whl)
+2）在该tensorflow的文件目录下，执行，pip3 install  XXX.whl文件，即可
